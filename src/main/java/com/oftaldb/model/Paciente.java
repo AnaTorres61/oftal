@@ -17,7 +17,7 @@ public class Paciente extends GenericModel{
         this.nome = nome;
         this.cpf = cpf;
         this.dtNascimento = dtNascimento;
-        super.getId();
+        super.setId(id);
     }
 
     public String getNome() {
